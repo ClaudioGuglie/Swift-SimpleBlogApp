@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F05BCD81BFC184500C81CFD /* ReportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05BCD71BFC184500C81CFD /* ReportCell.swift */; };
+		6F078D621BF4FE9A003E7377 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F078D611BF4FE9A003E7377 /* SWRevealViewController.m */; };
+		6F078D641BF501CD003E7377 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F078D631BF501CD003E7377 /* LeftMenuVC.swift */; };
+		6F078D661BF50278003E7377 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F078D651BF50278003E7377 /* LoginVC.swift */; };
+		6F078D6A1BF518FB003E7377 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F078D681BF518FB003E7377 /* Constant.swift */; };
+		6F078D6B1BF518FB003E7377 /* SharedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F078D691BF518FB003E7377 /* SharedValue.swift */; };
+		6F09DF811C00AB0700075FC1 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09DF801C00AB0700075FC1 /* ApiRequest.swift */; };
+		6F1803591BFABF5F00C6DE71 /* ReportGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1803581BFABF5F00C6DE71 /* ReportGroupsVC.swift */; };
+		6F3773771BF498CB00EB433D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3773761BF498CB00EB433D /* MainVC.swift */; };
+		6F37737A1BF4E37F00EB433D /* ZEF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F3773791BF4E37F00EB433D /* ZEF.plist */; };
+		6F50A3871BF3AB8C00BEFB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50A3861BF3AB8C00BEFB5C /* AppDelegate.swift */; };
+		6F50A38C1BF3AB8C00BEFB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F50A38A1BF3AB8C00BEFB5C /* Main.storyboard */; };
+		6F50A38E1BF3AB8C00BEFB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F50A38D1BF3AB8C00BEFB5C /* Assets.xcassets */; };
+		6F50A3911BF3AB8C00BEFB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F50A38F1BF3AB8C00BEFB5C /* LaunchScreen.storyboard */; };
+		6F50A39C1BF3AB8C00BEFB5C /* ZEFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50A39B1BF3AB8C00BEFB5C /* ZEFTests.swift */; };
+		6F50A3A71BF3AB8C00BEFB5C /* ZEFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F50A3A61BF3AB8C00BEFB5C /* ZEFUITests.swift */; };
+		6F93712F1BFB750400151763 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F93712E1BFB750400151763 /* Report.swift */; };
+		6F9371331BFB8C0700151763 /* ReportDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9371321BFB8C0700151763 /* ReportDetailVC.swift */; };
+		6F9371351BFB8C1600151763 /* AppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9371341BFB8C1600151763 /* AppDetailVC.swift */; };
+		6FCCEBF11BF6CD3300F2E0E0 /* AppItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCEBF01BF6CD3300F2E0E0 /* AppItem.swift */; };
+		6FCCED961BF6D78600F2E0E0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCED951BF6D78600F2E0E0 /* ImageLoader.swift */; };
+		6FD1D3B21BF6182400E7243C /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1D3B11BF6182400E7243C /* BlogCell.swift */; };
+		6FE4DA841BFE21750013986B /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4DA831BFE21750013986B /* UserPreferences.swift */; };
+		8A75CCF7985064406D261D30 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959854F1A81789E9E4DDFF7D /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F50A3981BF3AB8C00BEFB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F50A37B1BF3AB8B00BEFB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F50A3821BF3AB8B00BEFB5C;
+			remoteInfo = ZEF;
+		};
+		6F50A3A31BF3AB8C00BEFB5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F50A37B1BF3AB8B00BEFB5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F50A3821BF3AB8B00BEFB5C;
+			remoteInfo = ZEF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F05BCD71BFC184500C81CFD /* ReportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportCell.swift; sourceTree = "<group>"; };
+		6F078D601BF4FE9A003E7377 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		6F078D611BF4FE9A003E7377 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6F078D631BF501CD003E7377 /* LeftMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		6F078D651BF50278003E7377 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6F078D681BF518FB003E7377 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6F078D691BF518FB003E7377 /* SharedValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedValue.swift; sourceTree = "<group>"; };
+		6F09DF801C00AB0700075FC1 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		6F1803581BFABF5F00C6DE71 /* ReportGroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportGroupsVC.swift; sourceTree = "<group>"; };
+		6F3773761BF498CB00EB433D /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		6F3773781BF4E22F00EB433D /* ZEF-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZEF-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F3773791BF4E37F00EB433D /* ZEF.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ZEF.plist; sourceTree = "<group>"; };
+		6F50A3831BF3AB8B00BEFB5C /* ZEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F50A3861BF3AB8C00BEFB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F50A38B1BF3AB8C00BEFB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F50A38D1BF3AB8C00BEFB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F50A3901BF3AB8C00BEFB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F50A3921BF3AB8C00BEFB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F50A3971BF3AB8C00BEFB5C /* ZEFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F50A39B1BF3AB8C00BEFB5C /* ZEFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZEFTests.swift; sourceTree = "<group>"; };
+		6F50A39D1BF3AB8C00BEFB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F50A3A21BF3AB8C00BEFB5C /* ZEFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F50A3A61BF3AB8C00BEFB5C /* ZEFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZEFUITests.swift; sourceTree = "<group>"; };
+		6F50A3A81BF3AB8C00BEFB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F93712E1BFB750400151763 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		6F9371321BFB8C0700151763 /* ReportDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportDetailVC.swift; sourceTree = "<group>"; };
+		6F9371341BFB8C1600151763 /* AppDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailVC.swift; sourceTree = "<group>"; };
+		6FCCEBF01BF6CD3300F2E0E0 /* AppItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppItem.swift; sourceTree = "<group>"; };
+		6FCCED951BF6D78600F2E0E0 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6FD1D3B11BF6182400E7243C /* BlogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		6FE4DA831BFE21750013986B /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		959854F1A81789E9E4DDFF7D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45A67564E6583F3EE9DAB3A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C91E690F633624D3B3241387 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F50A3801BF3AB8B00BEFB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A75CCF7985064406D261D30 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A3941BF3AB8C00BEFB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A39F1BF3AB8C00BEFB5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291245817945E1B118E54B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				959854F1A81789E9E4DDFF7D /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F078D5F1BF4FE7F003E7377 /* SidebarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6F078D601BF4FE9A003E7377 /* SWRevealViewController.h */,
+				6F078D611BF4FE9A003E7377 /* SWRevealViewController.m */,
+			);
+			path = SidebarMenu;
+			sourceTree = "<group>";
+		};
+		6F078D671BF518FB003E7377 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6FCCED951BF6D78600F2E0E0 /* ImageLoader.swift */,
+				6F078D681BF518FB003E7377 /* Constant.swift */,
+				6F078D691BF518FB003E7377 /* SharedValue.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6F50A37A1BF3AB8B00BEFB5C = {
+			isa = PBXGroup;
+			children = (
+				6F50A3851BF3AB8B00BEFB5C /* ZEF */,
+				6F50A39A1BF3AB8C00BEFB5C /* ZEFTests */,
+				6F50A3A51BF3AB8C00BEFB5C /* ZEFUITests */,
+				6F50A3841BF3AB8B00BEFB5C /* Products */,
+				BFD843175F84C930FC38EE77 /* Pods */,
+				291245817945E1B118E54B95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F50A3841BF3AB8B00BEFB5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F50A3831BF3AB8B00BEFB5C /* ZEF.app */,
+				6F50A3971BF3AB8C00BEFB5C /* ZEFTests.xctest */,
+				6F50A3A21BF3AB8C00BEFB5C /* ZEFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F50A3851BF3AB8B00BEFB5C /* ZEF */ = {
+			isa = PBXGroup;
+			children = (
+				6FE4DA821BFE21410013986B /* Utils */,
+				6FCCEBEF1BF6CD1100F2E0E0 /* Model */,
+				6FD1D3B01BF617F000E7243C /* Custom Cell */,
+				6F078D671BF518FB003E7377 /* Common */,
+				6FCC90CA1BF4342300B414DE /* Controller */,
+				6F50A3861BF3AB8C00BEFB5C /* AppDelegate.swift */,
+				6F50A38A1BF3AB8C00BEFB5C /* Main.storyboard */,
+				6F50A38D1BF3AB8C00BEFB5C /* Assets.xcassets */,
+				6F50A38F1BF3AB8C00BEFB5C /* LaunchScreen.storyboard */,
+				6F50A3921BF3AB8C00BEFB5C /* Info.plist */,
+				6F3773791BF4E37F00EB433D /* ZEF.plist */,
+				6F3773781BF4E22F00EB433D /* ZEF-Bridging-Header.h */,
+			);
+			path = ZEF;
+			sourceTree = "<group>";
+		};
+		6F50A39A1BF3AB8C00BEFB5C /* ZEFTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F50A39B1BF3AB8C00BEFB5C /* ZEFTests.swift */,
+				6F50A39D1BF3AB8C00BEFB5C /* Info.plist */,
+			);
+			path = ZEFTests;
+			sourceTree = "<group>";
+		};
+		6F50A3A51BF3AB8C00BEFB5C /* ZEFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F50A3A61BF3AB8C00BEFB5C /* ZEFUITests.swift */,
+				6F50A3A81BF3AB8C00BEFB5C /* Info.plist */,
+			);
+			path = ZEFUITests;
+			sourceTree = "<group>";
+		};
+		6FCC90CA1BF4342300B414DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F078D5F1BF4FE7F003E7377 /* SidebarMenu */,
+				6F078D651BF50278003E7377 /* LoginVC.swift */,
+				6F078D631BF501CD003E7377 /* LeftMenuVC.swift */,
+				6F3773761BF498CB00EB433D /* MainVC.swift */,
+				6F9371341BFB8C1600151763 /* AppDetailVC.swift */,
+				6F1803581BFABF5F00C6DE71 /* ReportGroupsVC.swift */,
+				6F9371321BFB8C0700151763 /* ReportDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6FCCEBEF1BF6CD1100F2E0E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6FCCEBF01BF6CD3300F2E0E0 /* AppItem.swift */,
+				6F93712E1BFB750400151763 /* Report.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FD1D3B01BF617F000E7243C /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6FD1D3B11BF6182400E7243C /* BlogCell.swift */,
+				6F05BCD71BFC184500C81CFD /* ReportCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		6FE4DA821BFE21410013986B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6FE4DA831BFE21750013986B /* UserPreferences.swift */,
+				6F09DF801C00AB0700075FC1 /* ApiRequest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFD843175F84C930FC38EE77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45A67564E6583F3EE9DAB3A /* Pods.debug.xcconfig */,
+				C91E690F633624D3B3241387 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F50A3821BF3AB8B00BEFB5C /* ZEF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F50A3AB1BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEF" */;
+			buildPhases = (
+				1478B549037F17A99E587142 /* Check Pods Manifest.lock */,
+				6F50A37F1BF3AB8B00BEFB5C /* Sources */,
+				6F50A3801BF3AB8B00BEFB5C /* Frameworks */,
+				6F50A3811BF3AB8B00BEFB5C /* Resources */,
+				DDDDCA2B782F586AA8C1E286 /* Embed Pods Frameworks */,
+				6C6DD166D49985EB2A99F9E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEF;
+			productName = ZEF;
+			productReference = 6F50A3831BF3AB8B00BEFB5C /* ZEF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F50A3961BF3AB8C00BEFB5C /* ZEFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F50A3AE1BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEFTests" */;
+			buildPhases = (
+				6F50A3931BF3AB8C00BEFB5C /* Sources */,
+				6F50A3941BF3AB8C00BEFB5C /* Frameworks */,
+				6F50A3951BF3AB8C00BEFB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F50A3991BF3AB8C00BEFB5C /* PBXTargetDependency */,
+			);
+			name = ZEFTests;
+			productName = ZEFTests;
+			productReference = 6F50A3971BF3AB8C00BEFB5C /* ZEFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F50A3A11BF3AB8C00BEFB5C /* ZEFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F50A3B11BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEFUITests" */;
+			buildPhases = (
+				6F50A39E1BF3AB8C00BEFB5C /* Sources */,
+				6F50A39F1BF3AB8C00BEFB5C /* Frameworks */,
+				6F50A3A01BF3AB8C00BEFB5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F50A3A41BF3AB8C00BEFB5C /* PBXTargetDependency */,
+			);
+			name = ZEFUITests;
+			productName = ZEFUITests;
+			productReference = 6F50A3A21BF3AB8C00BEFB5C /* ZEFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F50A37B1BF3AB8B00BEFB5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Gong;
+				TargetAttributes = {
+					6F50A3821BF3AB8B00BEFB5C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6F50A3961BF3AB8C00BEFB5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6F50A3821BF3AB8B00BEFB5C;
+					};
+					6F50A3A11BF3AB8C00BEFB5C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6F50A3821BF3AB8B00BEFB5C;
+					};
+				};
+			};
+			buildConfigurationList = 6F50A37E1BF3AB8B00BEFB5C /* Build configuration list for PBXProject "ZEF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F50A37A1BF3AB8B00BEFB5C;
+			productRefGroup = 6F50A3841BF3AB8B00BEFB5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F50A3821BF3AB8B00BEFB5C /* ZEF */,
+				6F50A3961BF3AB8C00BEFB5C /* ZEFTests */,
+				6F50A3A11BF3AB8C00BEFB5C /* ZEFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F50A3811BF3AB8B00BEFB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F37737A1BF4E37F00EB433D /* ZEF.plist in Resources */,
+				6F50A3911BF3AB8C00BEFB5C /* LaunchScreen.storyboard in Resources */,
+				6F50A38E1BF3AB8C00BEFB5C /* Assets.xcassets in Resources */,
+				6F50A38C1BF3AB8C00BEFB5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A3951BF3AB8C00BEFB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A3A01BF3AB8C00BEFB5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1478B549037F17A99E587142 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6DD166D49985EB2A99F9E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDDDCA2B782F586AA8C1E286 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F50A37F1BF3AB8B00BEFB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F078D641BF501CD003E7377 /* LeftMenuVC.swift in Sources */,
+				6FE4DA841BFE21750013986B /* UserPreferences.swift in Sources */,
+				6F50A3871BF3AB8C00BEFB5C /* AppDelegate.swift in Sources */,
+				6F3773771BF498CB00EB433D /* MainVC.swift in Sources */,
+				6F078D621BF4FE9A003E7377 /* SWRevealViewController.m in Sources */,
+				6F078D661BF50278003E7377 /* LoginVC.swift in Sources */,
+				6F93712F1BFB750400151763 /* Report.swift in Sources */,
+				6FCCED961BF6D78600F2E0E0 /* ImageLoader.swift in Sources */,
+				6F05BCD81BFC184500C81CFD /* ReportCell.swift in Sources */,
+				6FCCEBF11BF6CD3300F2E0E0 /* AppItem.swift in Sources */,
+				6F1803591BFABF5F00C6DE71 /* ReportGroupsVC.swift in Sources */,
+				6FD1D3B21BF6182400E7243C /* BlogCell.swift in Sources */,
+				6F9371351BFB8C1600151763 /* AppDetailVC.swift in Sources */,
+				6F078D6B1BF518FB003E7377 /* SharedValue.swift in Sources */,
+				6F9371331BFB8C0700151763 /* ReportDetailVC.swift in Sources */,
+				6F078D6A1BF518FB003E7377 /* Constant.swift in Sources */,
+				6F09DF811C00AB0700075FC1 /* ApiRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A3931BF3AB8C00BEFB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F50A39C1BF3AB8C00BEFB5C /* ZEFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F50A39E1BF3AB8C00BEFB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F50A3A71BF3AB8C00BEFB5C /* ZEFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F50A3991BF3AB8C00BEFB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F50A3821BF3AB8B00BEFB5C /* ZEF */;
+			targetProxy = 6F50A3981BF3AB8C00BEFB5C /* PBXContainerItemProxy */;
+		};
+		6F50A3A41BF3AB8C00BEFB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F50A3821BF3AB8B00BEFB5C /* ZEF */;
+			targetProxy = 6F50A3A31BF3AB8C00BEFB5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F50A38A1BF3AB8C00BEFB5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F50A38B1BF3AB8C00BEFB5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F50A38F1BF3AB8C00BEFB5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F50A3901BF3AB8C00BEFB5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F50A3A91BF3AB8C00BEFB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F50A3AA1BF3AB8C00BEFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F50A3AC1BF3AB8C00BEFB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45A67564E6583F3EE9DAB3A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZEF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.report;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/solafort/Documents/Working/iOS/ZEF/ZEF/ZEF-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F50A3AD1BF3AB8C00BEFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91E690F633624D3B3241387 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZEF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.report;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/solafort/Documents/Working/iOS/ZEF/ZEF/ZEF-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F50A3AF1BF3AB8C00BEFB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.ZEFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEF.app/ZEF";
+			};
+			name = Debug;
+		};
+		6F50A3B01BF3AB8C00BEFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.ZEFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEF.app/ZEF";
+			};
+			name = Release;
+		};
+		6F50A3B21BF3AB8C00BEFB5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.ZEFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6F50A3B31BF3AB8C00BEFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zef.ZEFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F50A37E1BF3AB8B00BEFB5C /* Build configuration list for PBXProject "ZEF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F50A3A91BF3AB8C00BEFB5C /* Debug */,
+				6F50A3AA1BF3AB8C00BEFB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F50A3AB1BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F50A3AC1BF3AB8C00BEFB5C /* Debug */,
+				6F50A3AD1BF3AB8C00BEFB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F50A3AE1BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F50A3AF1BF3AB8C00BEFB5C /* Debug */,
+				6F50A3B01BF3AB8C00BEFB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F50A3B11BF3AB8C00BEFB5C /* Build configuration list for PBXNativeTarget "ZEFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F50A3B21BF3AB8C00BEFB5C /* Debug */,
+				6F50A3B31BF3AB8C00BEFB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F50A37B1BF3AB8B00BEFB5C /* Project object */;
+}

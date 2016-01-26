@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gitkitClient.ClientID</key>
+	<string>454572211215-fa8eubj0bck312dmgg9rh8nluea4egel.apps.googleusercontent.com</string>
+	<key>gitkitClient.WidgetURL</key>
+	<string>https://api.myzef.com/gitkit.jsp</string>
+	<key>gitkitClient.ApiKey</key>
+	<string>AIzaSyD3OZFDar3T-NUQqpOalkJEOssjB6znqpc</string>
+</dict>
+</plist>
